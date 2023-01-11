@@ -16,9 +16,10 @@ public class BaseTest {
 		driver = new ChromeDriver();
 	}
 
-	/*
-	 * @AfterSuite public static void close() {
-	 * 
-	 * driver.close(); }
-	 */
+	
+	 @AfterSuite 
+	 public static void close() {
+	  
+	 driver.close(); }
+	 
 	}
